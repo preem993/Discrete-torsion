@@ -6,7 +6,7 @@
 #   (ii) evaluate the antisymmetrized DW weight on commuting n-tuples,
 #   (iii) compute DW partition functions on T^n,
 #   (iv) test “twistedness” (existence of nontrivial torus phases),
-#   (v)  compute untwisted subgroups (your Bog^n / Br^n-style filters),
+#   (v)  compute untwisted subgroups (Bog^n / Br^n-style filters),
 #   (vi) compute the *dual* quotient Z_n/(B_n + X_n) via integer SNF
 #        without coset enumeration.
 #
@@ -134,7 +134,7 @@
 # Warning:
 # - This checks the list returned by cocyclesU1(G,n); if that list includes
 #   extra “Ext-part” classes (when using Z/m coefficients), the test is about
-#   those explicit cocycles as constructed. (Your later UntwistGroup removes Ext
+#   those explicit cocycles as constructed. (Later UntwistGroup removes Ext
 #   at the level of invariants.)
 #############################################################################
 
@@ -233,7 +233,7 @@
 #   - Zn_mod_Xn_plus_Bn_fast: computes invariants of Z_n/(B_n+X_n) via SNF.
 #
 # Notes:
-# - This is the “dual” approach described in your appendix: build relations
+# - This is the “dual” approach described in paper appendix: build relations
 #   from (i) boundaries in degree n+1 and (ii) images of alternating commuting
 #   bar words, then quotient inside ker(∂_n).
 #############################################################################

@@ -909,7 +909,7 @@ end;;
 # Uses BarComplexEquivalence(R) directly: phi : BC_n(G) -> T_n
 #############################################################################
 
-# (Keep your existing NormalizeBCWord and AltWordBC above this.)
+# (Keep existing NormalizeBCWord and AltWordBC above this.)
 
 # Try to extract T from the equivalence record (if HAP exposes it),
 # otherwise fall back to TensorWithIntegers(R).
@@ -967,7 +967,7 @@ XnVectorsFromTuples := function(G, n, reps)
   return rec(tensorComplex := T, vectors := vectors);
 end;;
 
-# Final DualTwistGroup (NO caching) - keep your commuting tuple routine unchanged.
+# Final DualTwistGroup (NO caching) - keep commuting tuple routine unchanged.
 #----------------------------------------------------------
 # Inputs:
 #   G - finite group

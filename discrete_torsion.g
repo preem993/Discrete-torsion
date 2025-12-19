@@ -415,7 +415,7 @@ end;;
 #--- Utilities for the HAP bar complex BC_n(G) -------------------------
 
 #HAP represents a word in BC_n(G) as a list of lists:
-#[ [coeff, g1, ..., gn], [coeff, g1, ..., gn], ... ]   [oai_citation:3‡Gap Packages](https://gap-packages.github.io/hap/doc/chap25.html?utm_source=chatgpt.com)
+#[ [coeff, g1, ..., gn], [coeff, g1, ..., gn], ... ]   
 # Each inner list represents a term coeff * [g1 | g2 | ... | gn] in BC_n(G).
 #----------------------------------------------------------
 
